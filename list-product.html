@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<style>
+    /* Sửa lại X bên dưới tương ứng với số sản phẩn muốn hiển thị */
+
+    /* .product-info .list-product .item:not(:nth-child(-n + 4)){
+        display: none;
+    } */
+</style>
+<body>
+    <header>
+        <div class="hm-container-fluid">
+            <nav onclick="showMenu()" id="menu clear">
+                <a href="#" class="logo-nav"><img src="images/logo.png" alt=""></a>
+                <ul class="menu">
+                    <li><a href="#">Trang chủ</a></li>
+                    <li class="dropdown"><a href="#">Cloud Hosting</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Sub menu</a></li>
+                            <li><a href="#">Sub menu</a></li>
+                            <li><a href="#">Sub menu</a></li>
+                            <li><a href="#">Sub menu</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Cloud VPS</a></li>
+                    <li><a href="#">Firewall</a></li>
+                    <li><a href="#">Dịch vụ khác</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+                <!-- <form class="search-header" action="">
+                    <div class="input-group">
+                        <input type="text" placeholder="Nhập nội dung tìm kiếm ...">
+                        <i class="icons fas fa-search"></i>
+                    </div>
+                </form> -->
+            </nav>
+            <div class="domain">
+                <img src="images/domain.png" alt="">
+            </div>
+            <div class="logo-slide">
+                <img src="images/logoslide.png" alt="">
+            </div>
+            <div class="slide">
+                <div class="slide-img active">
+                    <img src="images/hardware.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="images/hardware.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="images/hardware.png" alt="">
+                </div>
+                <P class="title active">Cloud VPS</P>
+                <P class="title">Cloud VPS</P>
+                <P class="title">Cloud VPS</P>
+                <a href="#" class="buy active">Mua ngay</a>
+                <a href="#" class="buy">Mua ngay</a>
+                <a href="#" class="buy">Mua ngay</a>
+            </div>
+            <div class="wrapper-indicators">
+                <div class="indicator active"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hm-container introduce">
+            <div class="hm-row va-m">
+                <div class="hm-col-3">
+                    <a href="#" class="img img-1-1"></a>
+                </div>
+                <div class="hm-col-9">
+                    <h1 class="title">Cloud VPS SSD Giá Rẻ</h1>
+                    <p>Dịch vụ SSD VPS giá rẻ là sự kết hợp của nhiều công nghệ tiên tiến, hiện đại.</p>
+                    <ul>
+                        <li>Công nghệ ảo hóa tiên tiến, linh hoạt.</li>
+                        <li>100% ổ cứng SSD chuyên dụng.</li>
+                        <li>Hạ tầng mạng Uplink 10Gbps.</li>
+                        <li>Hệ thống máy chủ chuyên dụng HP/Dell</li>
+                    </ul>
+                    <p>Chi phí luôn là một trong những vấn đề quan tâm hàng đầu kể cả với khách hàng cũng như NPS. Với phương châm đưa dịch vụ đến với mọi người, dịch vụ SSD VPS của NPS có mức chi phí thấp nhất với chất lượng cao nhất.</p>
+                </div>
+            </div>
+           <div class="hm-row product-info">
+                <div class="hm-col-12">
+                    <div class="title"><h3>BẢNG GIÁ DỊCH VỤ VPS SSD Giá Rẻ</h3></div>
+                    <div class="hm-column-4 hm-row list-product">
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product">
+                                <div class="product-name"><h3>A-mini</h3></div>
+                                <p class="price">69k<span>/tháng</span></p>
+                                <p>vCPU: 1 Core</p>
+                                <p>vRam: 1GB</p>
+                                <p>SSD: 20GB</p>
+                                <p>IP public: 1</p>
+                                <p>Băng thông: 100Mbps</p>
+                                <p> Antiddos Default</p>
+                                <a href="#">xem đầy đủ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="hm-container addition-product">
+            <div class="hm-row">
+                <div class="hm-col-12">
+                   <h3>Mọi gói sản phẩm đều có thể tùy chỉnh cấu hình, băng thông. Xem chi tiết tại phần <a href="#">mua hàng</a>.</h3>
+                </div>
+            </div>
+
+        </div>
+        <div class="hm-container special-options">
+            <div class="hm-row">
+                <div class="hm-col-12">
+                    <div class="title"><h1>TÍNH NĂNG NỔI BẬT</h1></div>
+                    <div class="hm-row hm-column-4 list-options">
+                        <div class="item">
+                            <div class="option">
+                                <div class="img img-1-1"><img src="" alt=""></div>
+                                <div class="title"><h3>Anti DDOS</h3></div>
+                                <p class="des">Mọi VPS tại NPS được bảo vệ bởi NWALL mặc định. Chống được các loại ddos spoofing, udp flood, synflood,  SYN-ACK flood, Ping of Death, Reflected Attack, …</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="option">
+                                <div class="img img-1-1"><img src="" alt=""></div>
+                                <div class="title"><h3>Anti DDOS</h3></div>
+                                <p class="des">Mọi VPS tại NPS được bảo vệ bởi NWALL mặc định. Chống được các loại ddos spoofing, udp flood, synflood,  SYN-ACK flood, Ping of Death, Reflected Attack, …</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="option">
+                                <div class="img img-1-1"><img src="" alt=""></div>
+                                <div class="title"><h3>Anti DDOS</h3></div>
+                                <p class="des">Mọi VPS tại NPS được bảo vệ bởi NWALL mặc định. Chống được các loại ddos spoofing, udp flood, synflood,  SYN-ACK flood, Ping of Death, Reflected Attack, …</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="option">
+                                <div class="img img-1-1"><img src="" alt=""></div>
+                                <div class="title"><h3>Anti DDOS</h3></div>
+                                <p class="des">Mọi VPS tại NPS được bảo vệ bởi NWALL mặc định. Chống được các loại ddos spoofing, udp flood, synflood,  SYN-ACK flood, Ping of Death, Reflected Attack, …</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="hm-container-fluid">
+            <div class="hm-container">
+                <div class="hm-row">
+                    <div class="hm-col-8">
+                        <div class="widgets hm-row hm-column-3">
+                            <div class="item">
+                                <div class="widget widget-company">
+                                    <h3 class="widget-title">công ty</h3>
+                                    <ul>
+                                        <li><a href="#">Giới thiệu về NPS</a></li>
+                                        <li><a href="#">Tuyển dụng</a></li>
+                                        <li><a href="#">Affiliate</a></li>
+                                        <li><a href="#">Chính sách bảo mật</a></li>
+                                        <li><a href="#">Liên Hệ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="widget widget-info">
+                                    <h3 class="widget-title">thông tin</h3>
+                                    <ul>
+                                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                                        <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                                        <li><a href="#">Hình thức thanh toán</a></li>
+                                        <li><a href="#">Chính sách đổi trả</a></li>
+                                        <li><a href="#">Quy định sử dụng</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="widget widget-menu">
+                                    <h3 class="widget-title">menu</h3>
+                                    <ul>
+                                        <li><a href="#">Hosting</a></li>
+                                        <li><a href="#">Cloud VPS</a></li>
+                                        <li><a href="#">Firewall</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Khuyến mãi</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hm-col-4" style="margin-right: -8.333%">
+                        <div class="contact">
+                            <h3>Trụ sở chính</h3>
+                            <p>Địa chỉ: 16/55/17 Nguyễn Thiện Thuật, Phường 2, Quận 3, Tp.HCM</p>
+                            <p>Điện thoại: 028 73 092939</p>
+                            <h3>VP GIAO DỊCH MIỀN NAM</h3>
+                            <p>Địa chỉ: 46 Dương Bá Trạc, Phường 2, Quận 8, Tp.HCM</p>
+                            <p>Điện thoại:</p>
+                            <h3>VP GIAO DỊCH MIỀN BẮC</h3>
+                            <p>Địa chỉ:</p>
+                            <p>Điện thoại:</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-payments hm-row va-m">
+                    <div class="hm-col-1 hm-push-1">
+                        <div class="payment">
+                            <img src="images/payment.png" alt="">
+                        </div>
+                    </div>
+                    <div class="hm-col-1 hm-push-1">
+                        <div class="payment">
+                            <img src="images/payment.png" alt="">
+                        </div>
+                    </div>
+                    <div class="hm-col-1 hm-push-1">
+                        <div class="payment">
+                            <img src="images/payment.png" alt="">
+                        </div>
+                    </div>
+                    <div class="hm-col-1 hm-push-1">
+                        <div class="payment">
+                            <img src="images/payment.png" alt="">
+                        </div>
+                    </div>
+                    <div class="hm-col-3">
+                        <img src="images/bct.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/slide.js"></script> -->
+</html>

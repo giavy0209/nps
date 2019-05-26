@@ -1,0 +1,315 @@
+@media only screen and (max-width: 1200px) {
+  header .hm-container-fluid nav {
+    left: 0;
+    right: 0;
+    text-align: center; }
+    header .hm-container-fluid nav .logo-nav {
+      float: none;
+      width: 12%; }
+    header .hm-container-fluid nav .menu {
+      float: none; }
+  header .hm-container-fluid .slide .title {
+    font-size: 80px; }
+  header .hm-container-fluid .slide .buy {
+    font-size: 16px;
+    padding: 10px 20px; }
+
+  main .banner-1 .hardware-banner {
+    top: 0; } }
+@media only screen and (max-width: 1000px) {
+  main .wrapper.wrapper-hosting .list-price .price:hover .hardware-info p {
+    font-size: 16px;
+    padding: 10px 0; }
+
+  main .wrapper.wrapper-hosting .list-price .price .total-price {
+    font-size: 24px; }
+
+  main .hm-container .hm-row .hm-col-12 .wrapper.wrapper-product .list-product .item {
+    width: 50%; }
+
+  main .hm-container .hm-row .hm-col-12 .wrapper.wrapper-product .list-product .item:not(:nth-child(-n +2)) {
+    margin-top: 20px; }
+
+  header .hm-container-fluid nav {
+    left: 0;
+    right: 0;
+    text-align: center; }
+    header .hm-container-fluid nav .logo-nav {
+      float: none;
+      width: 12%; }
+    header .hm-container-fluid nav .menu {
+      float: none; }
+  header .hm-container-fluid .slide .title {
+    font-size: 60px; }
+    header .hm-container-fluid .slide .title.active {
+      left: 20%; }
+  header .hm-container-fluid .slide .buy {
+    font-size: 16px;
+    padding: 10px 20px; } }
+@media only screen and (max-width: 850px) {
+  main .banner-1 .hardware-banner {
+    top: 20%;
+    width: 50%; }
+
+  .hm-column-4 .item {
+    width: 50%; }
+
+  .hm-column-4 .item:not(:nth-child(-n + 2)) {
+    margin-top: 30px; }
+
+  footer .hm-container-fluid .hm-container .hm-row .hm-col-8 {
+    width: 100%; }
+  footer .hm-container-fluid .hm-container .hm-row .hm-col-4 {
+    width: 100%; }
+
+  header .hm-container-fluid nav {
+    left: 0;
+    right: 0;
+    text-align: center; }
+    header .hm-container-fluid nav .logo-nav {
+      float: none;
+      width: 20%; }
+    header .hm-container-fluid nav .menu {
+      float: none; }
+      header .hm-container-fluid nav .menu li a {
+        padding: 10px 10px;
+        font-size: 14px; }
+  header .hm-container-fluid .slide .title {
+    font-size: 60px; }
+    header .hm-container-fluid .slide .title.active {
+      left: 20%; }
+  header .hm-container-fluid .slide .buy {
+    font-size: 16px;
+    padding: 10px 20px; }
+
+  /*contact*/
+  main section#contact {
+    margin-top: 50px; }
+    main section#contact .title .contact-title h1 {
+      font-size: 36px;
+      font-weight: 700;
+      text-align: center; }
+    main section#contact .top-contact {
+      margin-top: 20px; }
+      main section#contact .top-contact .item + .item {
+        margin-top: 20px; }
+      main section#contact .top-contact .hm-column-3 .item {
+        width: 100%; }
+      main section#contact .top-contact .contact {
+        text-align: center; }
+        main section#contact .top-contact .contact .icon {
+          font-size: 48px;
+          color: #1369bf; }
+        main section#contact .top-contact .contact h3 {
+          font-size: 24px;
+          font-weight: 700; }
+        main section#contact .top-contact .contact p {
+          font-size: 18px;
+          padding: 5px 0; }
+  main section#form-contact {
+    margin-top: 50px; }
+    main section#form-contact .form-title h1 {
+      font-size: 36px;
+      font-weight: 700;
+      text-align: center; }
+    main section#form-contact form {
+      margin-top: 20px; }
+      main section#form-contact form input, main section#form-contact form textarea {
+        display: block;
+        background-color: #333;
+        color: #fefefe;
+        font-style: italic;
+        padding: 25px;
+        margin-top: 33px;
+        width: 100%;
+        border: none;
+        text-rendering: none;
+        transition: all .5s ease; }
+        main section#form-contact form input:focus, main section#form-contact form textarea:focus {
+          box-shadow: 1px 1px 15px 0 #fefbce; }
+      main section#form-contact form textarea {
+        height: 250px; }
+    main section#form-contact .button-social {
+      margin-top: 20px; }
+      main section#form-contact .button-social .hm-col-4 {
+        width: 100%; }
+      main section#form-contact .button-social .list-button .button > * {
+        height: 46px;
+        width: 100%;
+        color: #fff;
+        font-style: italic;
+        font-size: 18px;
+        border: none;
+        cursor: pointer; }
+      main section#form-contact .button-social .list-button .button .submit {
+        position: relative;
+        background-color: #1369bf;
+        border-bottom: 5px solid #0c3762; }
+        main section#form-contact .button-social .list-button .button .submit::after {
+          content: " ";
+          position: absolute;
+          height: 5px;
+          bottom: -5px;
+          left: 0;
+          right: 100%;
+          background-color: #03111f;
+          transition: all .5s ease; }
+        main section#form-contact .button-social .list-button .button .submit:hover::after {
+          right: 0; }
+      main section#form-contact .button-social .list-button .button .reset {
+        color: #000; }
+      main section#form-contact .button-social .hm-col-8 {
+        width: 100%; }
+      main section#form-contact .button-social .socials {
+        margin-top: 20px; }
+        main section#form-contact .button-social .socials .list-socials {
+          text-align: center; }
+          main section#form-contact .button-social .socials .list-socials li {
+            display: inline-block;
+            float: none;
+            margin-left: 15px; }
+            main section#form-contact .button-social .socials .list-socials li a {
+              width: 45px;
+              height: 45px;
+              color: #fefbce;
+              border: 5px solid #fefbce;
+              border-radius: 50%;
+              position: relative; }
+              main section#form-contact .button-social .socials .list-socials li a i {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%); } }
+@media only screen and (max-width: 700px) {
+  main .banner-1 .hm-col-5 {
+    width: 100%; }
+    main .banner-1 .hm-col-5 h2 {
+      font-size: 36px;
+      padding-top: 40px; }
+  main .banner-1 .hardware-banner {
+    width: 50%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+  .hm-column-2 .item {
+    width: 100%; }
+
+  .hm-column-2 .item:not(:nth-child(-n + 1)) {
+    margin-top: 20px; }
+
+  .hm-column-4 .item {
+    width: 100% !important; }
+
+  .hm-column-4 .item:not(:nth-child(-n + 1)) {
+    margin-top: 20px; }
+
+  main .wrapper.wrapper-hosting .list-price .price .hardware-info p {
+    padding: 20px 0; }
+
+  footer .hm-container-fluid .hm-container .hm-row .hm-col-8 {
+    width: 100%; }
+    footer .hm-container-fluid .hm-container .hm-row .hm-col-8 .hm-column-3 .item {
+      width: 100%;
+      text-align: center; }
+  footer .hm-container-fluid .hm-container .hm-row .hm-col-4 {
+    width: 100%; }
+
+  .list-payments .hm-col-1 {
+    width: 41%; }
+  .list-payments .hm-col-3 {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px; }
+
+  .wrapper {
+    margin-top: 50px; }
+    .wrapper .product-title h1 {
+      font-size: 36px;
+      text-align: center;
+      color: #0066cc; }
+    .wrapper .list-product {
+      margin-top: 40px; }
+      .wrapper .list-product .product {
+        background-color: #006699;
+        border-radius: 20px;
+        padding: 25px 35px 50px 35px;
+        height: fit-content !important; }
+        .wrapper .list-product .product .icon-product {
+          width: 20% !important;
+          margin: 0 auto; }
+        .wrapper .list-product .product .title {
+          margin-top: 10px; }
+          .wrapper .list-product .product .title h3 {
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center; }
+        .wrapper .list-product .product .des {
+          margin-top: 18px;
+          font-weight: 14px;
+          color: #fff;
+          text-align: justify;
+          height: 100px;
+          overflow-y: scroll; }
+          .wrapper .list-product .product .des::-webkit-scrollbar {
+            width: 2px;
+            pointer-events: all; }
+          .wrapper .list-product .product .des::-webkit-scrollbar-thumb {
+            background: transparent;
+            border-radius: 10px;
+            width: 2px;
+            transition: all .3s ease; }
+          .wrapper .list-product .product .des:hover::-webkit-scrollbar-thumb {
+            background-color: #1f1f1f;
+            transition: all .3s ease;
+            opacity: 1; } }
+@media only screen and (max-width: 600px) {
+  header .hm-container-fluid nav {
+    padding: 5px 0;
+    left: 0;
+    right: 0;
+    text-align: center; }
+    header .hm-container-fluid nav::before {
+      content: " ";
+      width: 100px;
+      height: 30px;
+      background-color: #2d83c4;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    header .hm-container-fluid nav::after {
+      top: 5px;
+      left: 45px;
+      content: "";
+      position: absolute;
+      width: 15px;
+      height: 2px;
+      background-color: #fff;
+      box-shadow: 0 7px 0 #fff, 0 14px 0 #fff; }
+    header .hm-container-fluid nav .logo-nav {
+      float: none;
+      width: 20%; }
+    header .hm-container-fluid nav .menu {
+      float: none;
+      text-align: left;
+      position: absolute;
+      top: 30px;
+      left: -100%;
+      transition: all .3s ease; }
+      header .hm-container-fluid nav .menu.active {
+        left: 0; }
+      header .hm-container-fluid nav .menu li {
+        display: block; }
+        header .hm-container-fluid nav .menu li a {
+          padding: 5px 5px;
+          font-size: 10px; }
+  header .hm-container-fluid .slide .title {
+    font-size: 30px; }
+    header .hm-container-fluid .slide .title.active {
+      left: 20%; }
+  header .hm-container-fluid .slide .buy {
+    font-size: 12px;
+    padding: 5px 10px; } }
+
+/*# sourceMappingURL=responsive.css.map */
