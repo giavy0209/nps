@@ -591,16 +591,16 @@ header{
             }
             .title{
                 position: absolute;
-                top: 50%;
+                top: 30%;
                 left: -1000%;
                 transform: translate(0%, -50%);
-                font-size: 5rem;
+                font-size: 4rem;
                 font-weight: 900;
                 width: 100%;
                 transition: all 2.5s cubic-bezier(0.29, 0.28, 0.57, 0.85);
                 &.active{
-                    top: 50%;
-                    left: 50%;
+                    top: 30%;
+                    left: 30%;
                 }
             }
             .buy{
@@ -704,7 +704,7 @@ main{
             .product{
                 background-color: #006699;
                 border-radius: 20px;
-                padding: 25px 35px 50px 35px;
+                padding: 10px;
                 position: relative;
 
                 &::after{
@@ -795,6 +795,10 @@ main{
                         p{
                             font-size: 1.1rem;
                             text-align: center;
+                            padding: 5px 0;
+                        }
+                        ul{
+                            opacity: 0;
                         }
                         a{
                             display: none;
@@ -844,6 +848,9 @@ main{
                                 font-size: 1rem;
                                 font-weight: 700;
                             }
+                            ul{
+                                opacity: 1;
+                            }
                             a{
                                 display: block;
                             }
@@ -865,8 +872,11 @@ main{
                 font-weight: 700;
                 text-align: center;
             }
-            .vps{
+            .list-vps{
                 margin-top: 40px;
+
+            }
+            .vps{
                 padding: 60px 0 100px 0;
                 background-color: #003399;
                 position: relative;
@@ -935,7 +945,7 @@ main{
                     a{
                         display: none;
                         margin: 0 auto;
-                        font-size: 20px;
+                        font-size: 1rem;
                         font-weight: 700;
                         padding: 10px 20px;
                         background-color: #00ccff;
@@ -1534,15 +1544,36 @@ footer{
     top: 50%;
     left: 0;
     transform: translate(0,-50%);
-    background-color: #00ccff;
     a{
         display: block;
-        padding: 5px 10px;
+        // padding: 5px 10px;
         text-align: right;
         color: #fff;
-        margin: 5px 10px;
-        background-color: #003399;
+        margin: 15px 10px;
         transition: all .3s ease;
+        width: 50px;
+        position: relative;
+        background-color: #00ccff;
+        transition: all .3s ease;
+        &:hover{
+            span{
+                opacity: 1;
+                pointer-events: auto;
+                left: 100%;
+            }
+        }
+        span{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(0, -50%);
+            width: 380px;
+            text-align: left;
+            opacity: 0;
+            pointer-events: none;
+            transition: all .3s ease;
+            color: #00ccff;
+        }
     }
 }
 /*============CONTACT====================*/

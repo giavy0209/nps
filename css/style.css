@@ -535,16 +535,16 @@ header {
           margin: 0 auto; }
       header .hm-container-fluid .slide .title {
         position: absolute;
-        top: 50%;
+        top: 30%;
         left: -1000%;
         transform: translate(0%, -50%);
-        font-size: 5rem;
+        font-size: 4rem;
         font-weight: 900;
         width: 100%;
         transition: all 2.5s cubic-bezier(0.29, 0.28, 0.57, 0.85); }
         header .hm-container-fluid .slide .title.active {
-          top: 50%;
-          left: 50%; }
+          top: 30%;
+          left: 30%; }
       header .hm-container-fluid .slide .buy {
         position: absolute;
         padding: 20px 28px;
@@ -623,7 +623,7 @@ main .wrapper {
     main .wrapper .list-product .product {
       background-color: #006699;
       border-radius: 20px;
-      padding: 25px 35px 50px 35px;
+      padding: 10px;
       position: relative; }
       main .wrapper .list-product .product::after {
         content: "\f103";
@@ -693,7 +693,10 @@ main .wrapper {
         border-top-right-radius: 20px; }
         main .wrapper.wrapper-hosting .list-price .price .hardware-info p {
           font-size: 1.1rem;
-          text-align: center; }
+          text-align: center;
+          padding: 5px 0; }
+        main .wrapper.wrapper-hosting .list-price .price .hardware-info ul {
+          opacity: 0; }
         main .wrapper.wrapper-hosting .list-price .price .hardware-info a {
           display: none;
           margin: 0 auto;
@@ -735,6 +738,8 @@ main .wrapper {
           padding: 10px 0;
           font-size: 1rem;
           font-weight: 700; }
+        main .wrapper.wrapper-hosting .list-price .price:hover .hardware-info ul {
+          opacity: 1; }
         main .wrapper.wrapper-hosting .list-price .price:hover .hardware-info a {
           display: block; }
       main .wrapper.wrapper-hosting .list-price .price:hover .total-price {
@@ -747,8 +752,9 @@ main .wrapper {
     font-size: 2rem;
     font-weight: 700;
     text-align: center; }
+  main .wrapper.wrapper-vps .list-vps {
+    margin-top: 40px; }
   main .wrapper.wrapper-vps .vps {
-    margin-top: 40px;
     padding: 60px 0 100px 0;
     background-color: #003399;
     position: relative; }
@@ -811,7 +817,7 @@ main .wrapper {
       main .wrapper.wrapper-vps .vps .vps-info a {
         display: none;
         margin: 0 auto;
-        font-size: 20px;
+        font-size: 1rem;
         font-weight: 700;
         padding: 10px 20px;
         background-color: #00ccff;
@@ -1275,16 +1281,32 @@ footer {
   position: fixed;
   top: 50%;
   left: 0;
-  transform: translate(0, -50%);
-  background-color: #00ccff; }
+  transform: translate(0, -50%); }
   .direc a {
     display: block;
-    padding: 5px 10px;
     text-align: right;
     color: #fff;
-    margin: 5px 10px;
-    background-color: #003399;
+    margin: 15px 10px;
+    transition: all .3s ease;
+    width: 50px;
+    position: relative;
+    background-color: #00ccff;
     transition: all .3s ease; }
+    .direc a:hover span {
+      opacity: 1;
+      pointer-events: auto;
+      left: 100%; }
+    .direc a span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(0, -50%);
+      width: 380px;
+      text-align: left;
+      opacity: 0;
+      pointer-events: none;
+      transition: all .3s ease;
+      color: #00ccff; }
 
 /*============CONTACT====================*/
 main section#contact {
